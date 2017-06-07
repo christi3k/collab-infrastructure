@@ -1,5 +1,6 @@
 {
 	"id": "webadmin",
+  "password": ""
 	"groups": [
 		"sudo"
 	],

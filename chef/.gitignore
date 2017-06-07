@@ -13,6 +13,8 @@ bin/*
 .kitchen/
 .kitchen.local.yml
 
+data_bags/users/webadmin.json
+
 # macOS specific
 
 # General
