@@ -1,0 +1,9 @@
+{
+	"id": "webadmin",
+	"groups": [
+		"sudo"
+	],
+	"ssh_keys": [
+		"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDgo+7oqtO50GEwYvDLsyhB6/j2WDAdz+prF/b0WriqcaLa0qfWvjFE8CxLYxLsWzjcPtIyF60VyVQ2xc2wuRagfEqO3ktZ4FnJk3IMFrnsNYhhJWwLaCD3mOscJk87kzskIbnNlcWqyMHSGr/9nXEg2J1nuzOfPMUP4Hfk+KnC/a0scui6AFGELhh3Pq7FYWFbAXMYNv09bMMaM5e5SU0QloM2AcxcZz6lzAXUxDcSjNfNn6qC+jBbWRwGa+c+Qts1JCqrE3nyXKE0CV76VYtRzfAIRTY8kitleKxh1MeNfo8IN776thUBNljrAQce+Wibc2Dob1hSy8qBNXMl6sqt christie@Olamina.local"
+    ]
+}
