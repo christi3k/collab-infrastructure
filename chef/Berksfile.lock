@@ -1,6 +1,7 @@
 DEPENDENCIES
   apt
   build-essential
+  fail2ban (~> 4.0.1)
   firewall (~> 2.6.2)
   openssh
   user
@@ -11,6 +12,9 @@ GRAPH
     mingw (>= 1.1)
     seven_zip (>= 0.0.0)
   chef-sugar (3.4.0)
+  compat_resource (12.19.0)
+  fail2ban (4.0.1)
+    yum-epel (>= 0.0.0)
   firewall (2.6.2)
     chef-sugar (>= 0.0.0)
   iptables (4.2.0)
@@ -24,3 +28,5 @@ GRAPH
   user (0.7.0)
   windows (3.0.5)
     ohai (>= 4.0.0)
+  yum-epel (2.1.1)
+    compat_resource (>= 12.16.3)

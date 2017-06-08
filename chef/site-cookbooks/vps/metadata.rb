@@ -11,3 +11,4 @@ depends 'build-essential'
 depends "user"
 depends "openssh"
 depends "firewall"
+depends "fail2ban"

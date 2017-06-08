@@ -27,3 +27,6 @@ include_recipe 'openssh'
 
 # setup firewall
 include_recipe 'firewall::default'
+
+# setup fail2ban
+include_recipe 'fail2ban'
