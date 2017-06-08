@@ -9,6 +9,7 @@
 #
 
 include_recipe 'apt::default'
+include_recipe 'apt::unattended-upgrades'
 include_recipe 'build-essential::default'
 
 package 'vim'
