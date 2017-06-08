@@ -1,6 +1,7 @@
 DEPENDENCIES
   apt
   build-essential
+  firewall (~> 2.6.2)
   openssh
   user
 
@@ -9,6 +10,9 @@ GRAPH
   build-essential (8.0.2)
     mingw (>= 1.1)
     seven_zip (>= 0.0.0)
+  chef-sugar (3.4.0)
+  firewall (2.6.2)
+    chef-sugar (>= 0.0.0)
   iptables (4.2.0)
   mingw (2.0.1)
     seven_zip (>= 0.0.0)

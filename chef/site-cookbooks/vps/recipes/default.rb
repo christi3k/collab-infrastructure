@@ -24,3 +24,6 @@ include_recipe 'user::data_bag'
 
 # provision ssh
 include_recipe 'openssh'
+
+# setup firewall
+include_recipe 'firewall::default'
