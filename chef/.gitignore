@@ -13,7 +13,10 @@ bin/*
 .kitchen/
 .kitchen.local.yml
 
+# secrets stuff
+# TODO: find better way to do this
 data_bags/users/webadmin.json
+roles/postfix_relay.rb
 
 # macOS specific
 

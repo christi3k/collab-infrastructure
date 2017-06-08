@@ -1,5 +1,6 @@
 {
 	"run_list": [
-		"recipe[vps]"
+		"recipe[vps]",
+    "role[postfix_relay]"
 	]
 }

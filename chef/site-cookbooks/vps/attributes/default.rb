@@ -14,3 +14,4 @@ default.openssh.server.print_motd = 'no'
 # firewall attribs
 # open port 22 for ssh
 default['firewall']['allow_ssh'] = true
+
