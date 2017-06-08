@@ -10,3 +10,7 @@ default.openssh.server.allow_groups = 'sudo'
 default.openssh.server.login_grace_time = '30'
 default.openssh.server.use_p_a_m = 'no'
 default.openssh.server.print_motd = 'no'
+
+# firewall attribs
+# open port 22 for ssh
+default['firewall']['allow_ssh'] = true
