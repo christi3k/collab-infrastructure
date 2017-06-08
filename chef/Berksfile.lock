@@ -4,6 +4,7 @@ DEPENDENCIES
   fail2ban (~> 4.0.1)
   firewall (~> 2.6.2)
   openssh
+  postfix (~> 5.0.2)
   user
 
 GRAPH
@@ -23,6 +24,7 @@ GRAPH
   ohai (5.1.0)
   openssh (2.4.1)
     iptables (>= 1.0)
+  postfix (5.0.2)
   seven_zip (2.0.2)
     windows (>= 1.2.2)
   user (0.7.0)
