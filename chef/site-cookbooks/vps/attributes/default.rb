@@ -15,3 +15,7 @@ default.openssh.server.print_motd = 'no'
 # open port 22 for ssh
 default['firewall']['allow_ssh'] = true
 
+# email when there are issues with unattended upgrades
+default['apt']['unattended_upgrades']['mail'] = 'christie@numfocus.org'
+default['apt']['unattended_upgrades']['enable'] = true
+default['apt']['unattended_upgrades']['origins_patterns'] = ["origin=Ubuntu,archive=xenial-security"]
