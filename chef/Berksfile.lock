@@ -3,6 +3,7 @@ DEPENDENCIES
   build-essential
   fail2ban (~> 4.0.1)
   firewall (~> 2.6.2)
+  logrotate (~> 2.2.0)
   openssh
   postfix (~> 5.0.2)
   user
@@ -19,6 +20,7 @@ GRAPH
   firewall (2.6.2)
     chef-sugar (>= 0.0.0)
   iptables (4.2.0)
+  logrotate (2.2.0)
   mingw (2.0.1)
     seven_zip (>= 0.0.0)
   ohai (5.1.0)

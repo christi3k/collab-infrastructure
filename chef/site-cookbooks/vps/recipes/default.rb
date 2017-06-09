@@ -30,3 +30,6 @@ include_recipe 'firewall::default'
 
 # setup fail2ban
 include_recipe 'fail2ban'
+
+# setup logrotate
+include_recipe 'logrotate::global'
