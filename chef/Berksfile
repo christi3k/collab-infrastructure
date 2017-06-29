@@ -3,6 +3,7 @@ source "https://api.berkshelf.com"
 cookbook 'apt'
 cookbook 'build-essential'
 cookbook 'user'
+cookbook 'sudo', '~> 3.5.2'
 cookbook 'openssh'
 cookbook 'firewall', '~> 2.6.2'
 cookbook 'fail2ban', '~> 4.0.1'

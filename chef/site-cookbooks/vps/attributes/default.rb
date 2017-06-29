@@ -19,3 +19,7 @@ default['firewall']['allow_ssh'] = true
 default['apt']['unattended_upgrades']['mail'] = 'christie@numfocus.org'
 default['apt']['unattended_upgrades']['enable'] = true
 default['apt']['unattended_upgrades']['origins_patterns'] = ["origin=Ubuntu,archive=xenial-security"]
+
+# sudo
+default['authorization']['sudo']['users'] = ['webadmin']
+default['authorization']['sudo']['passwordless'] = true

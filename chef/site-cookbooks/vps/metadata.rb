@@ -9,6 +9,7 @@ version          '0.1.0'
 depends 'apt'
 depends 'build-essential'
 depends "user"
+depends "sudo"
 depends "openssh"
 depends "firewall"
 depends "fail2ban"

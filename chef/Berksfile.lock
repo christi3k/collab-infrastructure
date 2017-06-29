@@ -6,6 +6,7 @@ DEPENDENCIES
   logrotate (~> 2.2.0)
   openssh
   postfix (~> 5.0.2)
+  sudo (~> 3.5.2)
   user
 
 GRAPH
@@ -29,6 +30,7 @@ GRAPH
   postfix (5.0.2)
   seven_zip (2.0.2)
     windows (>= 1.2.2)
+  sudo (3.5.2)
   user (0.7.0)
   windows (3.0.5)
     ohai (>= 4.0.0)

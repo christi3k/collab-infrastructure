@@ -22,6 +22,9 @@ package 'git'
 # provision user account
 include_recipe 'user::data_bag'
 
+# configure sudo
+include_recipe 'sudo::default'
+
 # provision ssh
 include_recipe 'openssh'
 
